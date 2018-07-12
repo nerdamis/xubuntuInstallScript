@@ -5,10 +5,10 @@ PRIVATE_SNAP=""
 
 if [ "$1" != "" ]; do
 	case $1 in
-		-p | --private )		shift
-								PRIVATE_APT="calibre openshot steam-installer"
-								PRIVATE_SNAP="spotify docker intellij-idea-community goland discord openra play0ad minecraft android-studio"
-								;;
+		-p | --private )	shift
+					PRIVATE_APT="calibre openshot steam-installer"
+					PRIVATE_SNAP="spotify docker intellij-idea-community goland discord openra play0ad minecraft android-studio"
+					;;
 	esac
 	shift
 done
