@@ -6,7 +6,7 @@ sudo apt update
 sudo apt upgrade
 
 ## Installing from the APT-Sources
-sudo apt install nano fonts-powerline gdebi tlp tlp-rdw redshift-gtk la-capitaine-icon-theme la-capitaine-cursor-theme arc-theme openshot chromium-browser chromium-codecs-ffmpeg-extra chromium-chromedriver steam-installer mpv zsh git wget plank curl
+sudo apt install nano fonts-powerline gdebi calibre pdfsam tlp tlp-rdw thunderbird redshift-gtk la-capitaine-icon-theme la-capitaine-cursor-theme arc-theme openshot chromium-browser chromium-codecs-ffmpeg-extra chromium-chromedriver steam-installer mpv zsh git wget plank curl
 
 ## Adding Google Chrome PPA, cause wget might have not existed before on that system
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
