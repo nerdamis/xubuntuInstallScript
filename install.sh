@@ -22,7 +22,7 @@ sudo apt update
 sudo apt upgrade
 
 ## Installing from the APT-Sources
-sudo apt install nano tmux fonts-powerline gdebi pdfsam tlp tlp-rdw thunderbird redshift-gtk la-capitaine-icon-theme la-capitaine-cursor-theme arc-theme chromium-browser chromium-codecs-ffmpeg-extra chromium-chromedriver mpv zsh git wget plank curl $PRIVATE_APT
+sudo apt install nano tmux nmon fonts-powerline gdebi pdfsam tlp tlp-rdw thunderbird redshift-gtk la-capitaine-icon-theme la-capitaine-cursor-theme arc-theme chromium-browser chromium-codecs-ffmpeg-extra chromium-chromedriver mpv zsh git wget plank curl $PRIVATE_APT
 
 ## install shit
 sudo snap install notepadqq nextcloud-client telegram-desktop vscode gimp $PRIVATE_SNAP
