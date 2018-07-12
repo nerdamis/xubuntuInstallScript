@@ -16,19 +16,7 @@ sudo apt update
 sudo apt install google-chrome-beta
 
 ## install shit
-sudo snap install spotify docker
-sudo snap install notepadqq --channel
-sudo snap install intellij-idea-community --channel
-sudo snap install goland --channel
-sudo snap install nextcloud-client --channel
-sudo snap install telegram-desktop --channel
-sudo snap install discord --channel 
-sudo snap install openra --channel 
-sudo snap install play0ad --channel
-sudo snap install minecraft --channel
-sudo snap install vscode --channel 
-sudo snap install android-studio --channel
-sudo snap install gimp --channel
+sudo snap install spotify docker notepadqq intellij-idea-community goland nextcloud-client telegram-desktop discord  openra  play0ad minecraft vscode android-studio gimp
 
 ## install Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
