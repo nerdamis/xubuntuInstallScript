@@ -3,15 +3,15 @@
 PRIVATE_APT=""
 PRIVATE_SNAP=""
 
-if [ "$1" != "" ]; do
+if [ "$1" != "" ]
+then
 	case $1 in
 		-p | --private )	shift
 					PRIVATE_APT="calibre openshot steam-installer"
 					PRIVATE_SNAP="spotify docker intellij-idea-community goland discord openra play0ad minecraft android-studio"
 					;;
 	esac
-	shift
-done
+fi
 	
 
 ## Enable sources, add PPAs and update sources
