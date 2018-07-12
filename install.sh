@@ -27,6 +27,10 @@ sudo apt install nano tmux nmon fonts-powerline gdebi pdfsam tlp tlp-rdw thunder
 ## install shit
 sudo snap install notepadqq nextcloud-client telegram-desktop vscode gimp $PRIVATE_SNAP
 
+## download the MyZshConfig from Github
+cd ~
+wget https://raw.githubusercontent.com/nerdamis/myZshConfig/master/.zshrc
+
 ## install Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
