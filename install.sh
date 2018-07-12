@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install google-chrome-beta
 
 ## install shit
-sudo snap install spotify discord docker
+sudo snap install spotify docker
 sudo snap install notepadqq --channel
 sudo snap install intellij-idea-community --channel
 sudo snap install goland --channel
