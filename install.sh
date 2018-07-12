@@ -24,13 +24,6 @@ sudo apt upgrade
 ## Installing from the APT-Sources
 sudo apt install nano tmux fonts-powerline gdebi pdfsam tlp tlp-rdw thunderbird redshift-gtk la-capitaine-icon-theme la-capitaine-cursor-theme arc-theme chromium-browser chromium-codecs-ffmpeg-extra chromium-chromedriver mpv zsh git wget plank curl $PRIVATE_APT
 
-## Adding Google Chrome PPA, cause wget might have not existed before on that system
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
-
-sudo apt update
-sudo apt install google-chrome-beta
-
 ## install shit
 sudo snap install notepadqq nextcloud-client telegram-desktop vscode gimp $PRIVATE_SNAP
 
